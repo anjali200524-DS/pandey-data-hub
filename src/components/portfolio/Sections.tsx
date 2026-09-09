@@ -128,7 +128,7 @@ export function Certificates() {
     <Section
       id="certificates"
       label="05 / certificates"
-      title="Certificates &amp; Achievements"
+      title="Certificates & Achievements"
       meta="07 items"
     >
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -168,7 +168,7 @@ export function Certificates() {
 
 export function Experience() {
   return (
-    <Section id="experience" label="06 / experience" title="Experience &amp; Activities">
+    <Section id="experience" label="06 / experience" title="Experience & Activities">
       <ol className="ml-1 border-l border-border pl-6">
         {activities.map((item, i) => (
           <li key={item.title} className="relative pb-8 last:pb-0">
